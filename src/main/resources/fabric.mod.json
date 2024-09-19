@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "handles",
+  "version": "${version}",
+  "name": "handles",
+  "description": "",
+  "authors": [
+    "QuantumShade",
+    "DiceLine11 (DO7)",
+    "DrTheo_ (dr.theo)"
+  ],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "assets/handles/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.quantumshade.handles.client.HandlesClient"
+    ],
+    "main": [
+      "com.quantumshade.handles.Handles"
+    ]
+  },
+  "mixins": [
+    "handles.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
